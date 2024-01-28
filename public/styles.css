@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    top: 0;
+    display: flex;
+    justify-content: right;
+    min-height: 28px;
+    padding: 10px;
+    /* background-color: #f1f1f1; */
+}
+
+.header a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.title {
+    transform: translatex(-59rem);
+}
+
+.NavItem a {
+    font-weight: 600;
+}
+
+body {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #2acfa93f;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    min-height: 100vh;
+}
+
+.content1 {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    transform: translate(5rem, 13rem);
+    min-height: 1.2rem;
+    max-width: 25rem;
+}
+
+.content1 p div {
+    display: inline;
+}
+
+.content1 p p div {
+    font-size: 2rem;
+}
+
+.content1 p p,
+.content1 p div {
+    font-size: 1.25rem;
+}
+
+image {
+    overflow: hidden;
+}
+
+.imageMix {
+    object-fit: cover;
+    mix-blend-mode: multiply;
+    transform: translate(55rem);
+    height: 35rem;
+}
+
+.footer {
+    padding-top: 5px;
+    text-align: center;
+    min-height: 28px;
+    /* transform: translateY(8rem) */
+    min-width: 100vw;
+    background-color: #f1f1f1;
+    bottom: 0;
+    position: absolute;
+
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .header {
+        justify-content: center;
+    }
+
+    .title {
+        transform: translateX(0);
+    }
+
+    .content1 {
+        transform: translate(0, 0);
+    }
+
+    .imageMix {
+        transform: translate(0);
+        height: auto;
+        width: 100%;
+    }
+
+    .footer {
+        position: relative;
+        /* Add additional styling for smaller screens if needed */
+    }
+}
