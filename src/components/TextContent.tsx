@@ -21,7 +21,7 @@ function TextContent(){
         setStyleTitle({});
     }
 
-    return <div className="content1">
+    return <div className="contentHome">
     
         <p> 
             <div>Hello Everyone !!</div>
