@@ -8,6 +8,11 @@
     margin-top: 15vh;
 }
 
+.contentContentMain{
+    display:flex;
+    justify-content: space-between;
+}
+
 .contentHome p p, div{
     font-family:cursive;
 }
@@ -18,4 +23,20 @@
 
 .contentHome p p div {
     font-size: 2rem;
+}
+
+@media (max-width: 991px) {
+    .contentMain {
+        max-width: 45vh;
+        position: relative;
+        margin-top: 15vh;
+    }
+    
+    .contentContentMain {
+        transform: translate(15vw, 7vh);
+    }
+
+    .photo{
+        display: none;
+    }
 }

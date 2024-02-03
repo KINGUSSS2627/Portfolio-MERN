@@ -9,8 +9,14 @@ function Content(){
         <div className="contentMain">
             <CContainer>
                 <CRow>
-                    <CCol><TextContent/></CCol>
-                    <CCol><Image/></CCol>
+                    <div className="contentContentMain">
+                        <div>
+                            <CCol><TextContent/></CCol>
+                        </div>
+                        <div className="photo">
+                            <CCol><Image/></CCol>
+                        </div>
+                    </div>
                 </CRow>
             </CContainer>    
         </div>
