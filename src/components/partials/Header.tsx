@@ -1,7 +1,9 @@
 import React from 'react'
 import {RiMenu3Fill} from "react-icons/ri";
-import  {GiCrossMark}  from "react-icons/gi";
-import  {Drawer}  from '@mui/material';
+import {GiCrossMark}  from "react-icons/gi";
+import {Drawer}  from '@mui/material';
+import {Link} from 'react-router-dom'
+
 import HomeIcon from '@mui/icons-material/Home';
 import Person4Icon from '@mui/icons-material/Person4';
 import AssignmentIcon from '@mui/icons-material/Assignment';
@@ -20,15 +22,18 @@ function Header()
     
         <div className='flex items-center justify-between px-5 md:px-10 my-1 shadow-lg z-10'>
             <div className='text-2xl text-primary font-protest'>
-                Shreshth Gupta
+                <Link to="/">
+                    Shreshth Gupta
+                </Link>
+                
             </div>
 
             <div className=''>
                 <ul className='flex items-center'>
-                    <li className='mx-4 navHide'>   Home        </li>
-                    <li className='mx-4 navHide'>   About Me    </li>
-                    <li className='mx-4 navHide'>   Projects    </li>
-                    <li className='mx-4 navHide'>   Contact     </li>
+                    <li className='mx-4 navHide'> <Link to="/">  Home  </Link>          </li>
+                    <li className='mx-4 navHide'> <Link to="/about"> About Me </Link>   </li>
+                    <li className='mx-4 navHide'> <Link to="/project"> Project </Link>  </li>
+                    <li className='mx-4 navHide'> <Link to="/contact"> Contact Me </Link>  </li>
 
                     <li><a className="link-dec mx-4 navHide"
                     href="https://drive.google.com/file/d/1FvTHSiEkfom90D7WNTH8cpKanoQPMX1-/view?usp=drive_link">
@@ -53,22 +58,22 @@ function Header()
                             </li>
                             <li className='m-4'>
                                 <span className=''><HomeIcon/></span>
-                                <span className='mr-4 ml-6'>Home</span>
+                                <span className='mr-4 ml-6'><Link to="/">  Home  </Link></span>
                             </li>
 
                             <li className='m-4'>
                                 <span className=''><Person4Icon/></span>
-                                <span className='mr-4 ml-6'>About Me</span>
+                                <span className='mr-4 ml-6'><Link to="/about"> About Me </Link></span>
                             </li>
 
                             <li className='m-4'>
                                 <span className=''><AssignmentIcon/></span>
-                                <span className='mr-4 ml-6'>Project</span>
+                                <span className='mr-4 ml-6'><Link to="/project"> Project </Link></span>
                             </li>
                             
                             <li className='m-4'>
                                 <span className=''><ConnectWithoutContactIcon/></span>
-                                <span className='mr-4 ml-6'>Contact Me</span>
+                                <span className='mr-4 ml-6'><Link to="/contact"> Contact Me </Link></span>
                             </li>
 
                             <li className='m-4'>

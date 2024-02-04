@@ -1,20 +1,69 @@
 /* Header Section Styling Begins */
 
-@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
 
 .font-protest {
-    font-family: 'Protest Revolution', cursive;
+  font-family: "Protest Revolution", cursive;
 }
 
-.link-dec{
-    text-decoration: none;
+.link-dec {
+  text-decoration: none;
 }
 
-
-@media (max-width:768px) {
-    .navHide {
-        display: none;
-    }
+@media (max-width: 768px) {
+  .navHide {
+    display: none;
+  }
 }
 
 /* Header Section Styling Ends */
+
+
+
+/* ContactForm Section Styling Begin */
+
+.centerData{
+    display: grid;
+    justify-content: center;
+}
+
+.centerContent{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainHeading{
+  font-size: 35px;
+}
+
+.heading{
+  font-size: 25px;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  margin: 2% 0% 2% 2%;
+}
+
+@media (max-width: 700px) {
+    .coloumnView{
+      display: flex;
+      flex-direction: column;
+      margin-left: 15%;
+      min-width: 70%;
+    }
+
+
+    .info{
+      margin-left: -4.75%;
+    }
+
+    .floatSize {
+        max-width: 85%;
+    }
+}
+
+/* ContactForm Section Styling End */
