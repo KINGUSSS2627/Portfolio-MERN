@@ -1,42 +1,20 @@
-*{
-    padding: 0;
-    margin: 0;
+/* Header Section Styling Begins */
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+.font-protest {
+    font-family: 'Protest Revolution', cursive;
 }
 
-.contentMain{
-    position: relative;
-    margin-top: 15vh;
+.link-dec{
+    text-decoration: none;
 }
 
-.contentContentMain{
-    display:flex;
-    justify-content: space-between;
-}
 
-.contentHome p p, div{
-    font-family:cursive;
-}
-
-.contentHome p div {
-    display: inline;
-}
-
-.contentHome p p div {
-    font-size: 2rem;
-}
-
-@media (max-width: 991px) {
-    .contentMain {
-        max-width: 45vh;
-        position: relative;
-        margin-top: 15vh;
-    }
-    
-    .contentContentMain {
-        transform: translate(15vw, 7vh);
-    }
-
-    .photo{
+@media (max-width:768px) {
+    .navHide {
         display: none;
     }
 }
+
+/* Header Section Styling Ends */
