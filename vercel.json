@@ -11,5 +11,6 @@
       "src": "/(.*)",
       "dest": "/vite.config.js"
     }
-  ]
+  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }] 
 }
