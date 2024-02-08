@@ -18,52 +18,133 @@
 
 /* Header Section Styling Ends */
 
-
-
 /* ContactForm Section Styling Begin */
 
-.centerData{
-    display: grid;
-    justify-content: center;
+.centerData {
+  display: grid;
+  justify-content: center;
 }
 
-.centerContent{
-    display: grid;
-    justify-content: center;
-    align-items: center;
+.centerContent {
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.mainHeading{
+.mainHeading {
   font-size: 35px;
 }
 
-.heading{
+.heading {
   font-size: 25px;
 }
 
-.submit{
+.submit {
   display: flex;
   justify-content: center;
   margin: 2% 0% 2% 2%;
 }
 
+.btnn{
+  color: black;
+}
+
 @media (max-width: 700px) {
-    .coloumnView{
-      display: flex;
-      flex-direction: column;
-      margin-left: 15%;
-      min-width: 70%;
-    }
+  .coloumnView {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    min-width: 70%;
+  }
 
+  .info {
+    margin-left: -4.75%;
+  }
 
-    .info{
-      margin-left: -4.75%;
-    }
-
-    .floatSize {
-        max-width: 85%;
-    }
+  .floatSize {
+    max-width: 85%;
+  }
 }
 
 /* ContactForm Section Styling End */
+
+/* Home Page Section Styling Begins */
+
+.contentMe {
+  margin-left: 10%;
+  margin-top: 12%;
+  min-width: 35%;
+}
+
+.sizeXl {
+  min-width: 40%;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+.greet {
+  font-family: "Caveat", cursive;
+  font-size: x-large;
+}
+
+.name {
+  font-family: "Protest Revolution", sans-serif;
+  font-size: xx-large;
+}
+
+.title {
+  font-family: "Caveat", cursive;
+  font-size: x-large;
+}
+
+.intro {
+  font-family: "Source Code Pro", monospace;
+  margin-top: 2%;
+  opacity: 0.6;
+}
+
+/* Home Page Section Styling Ends */
+
+/* About Page Section Styling Starts */
+
+.alignCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageSize{
+  max-width: 40%;
+}
+
+.skill{
+  margin-left: -30%;
+}
+
+.right{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-left: -25%;
+}
+
+.cardHolder{
+  min-width: 30%;
+}
+
+.midCard{
+  transform: translateX(35%);
+}
+
+@media (max-width: 768px) {
+  .midCard {
+    transform: translateX(0%);
+  }
+
+  .setImage{
+    display: none;
+  }
+}
+
+/* About Page Section Styling Ends */

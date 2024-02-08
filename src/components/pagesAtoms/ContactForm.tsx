@@ -10,7 +10,9 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import Button from '@mui/material-next/Button';
 import Btn from './Button';
+import 'animate.css';
 
 
 function ContactForm()
@@ -19,14 +21,14 @@ function ContactForm()
 
         <CContainer className='mt-20 lg:flex-col'>
 
-            <CRow className='centerData'>
+            <CRow className='centerData animate__animated animate__fadeInDown'>
                 <CRow className='centerContent m-1 mainHeading'>Feel Free To Contact Me</CRow>
                 <CRow className='centerContent m-1'>Loader Animation</CRow>
             </CRow>
 
 
 
-            <CRow className='flex justify-center md:space-x-12 coloumnView'>
+            <CRow className='flex justify-center md:space-x-12 coloumnView animate__animated animate__fadeInUp'>
                 <CCol className='inline floatSize'>
                     <CRow className='mr-5 mt-5 heading'>Contact Me</CRow>
                     <CRow className='mr-5 mt-5'>
@@ -61,8 +63,8 @@ function ContactForm()
             </CRow>
         </CContainer>
 
-        <div className='submit'>
-            <Btn />
+        <div className='submit animate__animated animate__fadeInRight'>
+            <Button color="tertiary" size="large" variant="elevated" className='p-1'> Send Request</Button>
         </div>
         
         

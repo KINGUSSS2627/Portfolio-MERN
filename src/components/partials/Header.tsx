@@ -9,6 +9,8 @@ import Person4Icon from '@mui/icons-material/Person4';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
+import 'animate.css';
+
 
 function Header()
 {
@@ -21,7 +23,7 @@ function Header()
     return <>
     
         <div className='flex items-center justify-between px-5 md:px-10 my-1 shadow-lg z-10'>
-            <div className='text-2xl text-primary font-protest'>
+            <div className='text-2xl text-primary font-protest animate__animated  animate__backInLeft'>
                 <Link to="/">
                     Shreshth Gupta
                 </Link>
@@ -29,7 +31,7 @@ function Header()
             </div>
 
             <div className=''>
-                <ul className='flex items-center'>
+                <ul className='flex items-center animate__animated animate__backInRight'>
                     <li className='mx-4 navHide'> <Link to="/">  Home  </Link>          </li>
                     <li className='mx-4 navHide'> <Link to="/about"> About Me </Link>   </li>
                     <li className='mx-4 navHide'> <Link to="/project"> Project </Link>  </li>
