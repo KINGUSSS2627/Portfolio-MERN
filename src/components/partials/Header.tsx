@@ -38,7 +38,7 @@ function Header()
                     <li className='mx-4 navHide'> <Link to="/contact"> Contact Me </Link>  </li>
 
                     <li><a className="link-dec mx-4 navHide"
-                    href="https://drive.google.com/file/d/1FvTHSiEkfom90D7WNTH8cpKanoQPMX1-/view?usp=drive_link">
+                    href="https://drive.google.com/file/d/1FvTHSiEkfom90D7WNTH8cpKanoQPMX1-/view?usp=drive_link" target='blank'>
                     Resume
                     </a></li>
                 </ul>
@@ -80,7 +80,7 @@ function Header()
 
                             <li className='m-4'>
                                 <span className=''><CloudDownloadIcon/></span>
-                                <span className='mr-4 ml-6'> Resume </span>
+                                <span className='mr-4 ml-6'> <a href="https://drive.google.com/file/d/1FvTHSiEkfom90D7WNTH8cpKanoQPMX1-/view?usp=drive_link" target='blank'> Resume </a> </span>
                             </li>
                             
                         </ul>
