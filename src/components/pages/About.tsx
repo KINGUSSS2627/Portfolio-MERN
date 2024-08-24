@@ -20,20 +20,24 @@ function About()
             <CRow> Linear Animation </CRow>
             <CRow className="flex mt-10"> 
 
-                <CCol className="mr-10">
-                     <CRow className="text-4xl"> Shreshth Gupta </CRow>
-                    <CRow className="text-xl"> Competative Programmer & MERN Devloper</CRow>
-                    <CRow> Desc </CRow>
-                    <CRow> Desc 2</CRow>
-                    <CRow>
+                <div className="ml-10">
+                    <div className="text-4xl"> Shreshth Gupta </div>
+                    <div className="text-xl"> Competative Programmer & MERN Devloper</div>
+                    <div > Detailed Oriented, Collaborator and a Enthusiast Learner </div>
 
-                        <CCol> Phone </CCol>
-                        <CCol> Email </CCol>
+                    <div className="textDet"> 
+                        A proficient Mern Developer and Competative coder using C, C++, I am commited to write efficient and concise code. I am having hands on experience on TypeScript, JavaScript, Html, Css, Tailwind, MaterialUI, ReactJs, NodeJs, ExpressJs, MongoDb for devlopment.
+                    </div>
 
-                    </CRow>
-                </CCol>   
+                    <div>
+                        <div> 9548204422 </div>
+                        <div> harshgupta.dpn@gmail.com </div>
+                    </div>
+                </div>   
 
-                <CCol className="ml-64"> Photo  </CCol>    
+                <CCol className=""> 
+                <img src="images/myself.jpg" alt="Personal Image" width={450} className="selfImgHolder"/> 
+                </CCol>    
 
             </CRow> 
 
